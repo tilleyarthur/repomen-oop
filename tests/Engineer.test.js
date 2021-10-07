@@ -13,7 +13,7 @@ Employee.prototype.getName = function () {
 test
 
 Employee.prototype.getId = function () {
-  return `${this.id} is ${this.2
+  return `${this.id} is ${this.2};
 }`;
 };
 
@@ -32,7 +32,7 @@ Employee.prototype.getGithub = function() {
 test
 
 Employee.prototype.getRole = function() {
-// Overridden to return 'Engingeer'
+// Overridden to return 'Engineer'
   return this.Engineer = "This method overrides the default constructor of Employee class.";
 };
 
