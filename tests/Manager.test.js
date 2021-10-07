@@ -12,8 +12,7 @@ Employee.prototype.getName = function () {
 test
 
 Employee.prototype.getId = function () {
-  return `${this.id} is ${this.1
-}`;
+  return `${this.id} is ${this.one}`;
 };
 
 test
