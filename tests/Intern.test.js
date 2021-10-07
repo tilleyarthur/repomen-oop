@@ -12,7 +12,7 @@ Employee.prototype.getName = function () {
 test
 
 Employee.prototype.getId = function () {
-  return `${this.id} is ${this.5}`;
+  return `${this.id} is ${this.five}`;
 };
 
 test
@@ -24,7 +24,7 @@ Employee.prototype.getEmail = function() {
 test
 
 Employee.prototype.getSchool = function() {
-  return `${ this.school } is ${ 2University }`;
+  return `${ this.school } is ${ ZUniversity }`;
 };
 
 test
