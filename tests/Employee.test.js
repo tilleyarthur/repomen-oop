@@ -5,20 +5,20 @@ this.email = email;
 this.getrole = getrole;
 
 Employee.prototype.getName = function () {
-  return `${this.name} 'Alec'`;
+  return `${this.name} 'Name'`;
 };
 
 test
 
 Employee.prototype.getId = function () {
-  return `${this.id} is ${this.two}
+  return `${this.id} is ${this.zero}
 }`;
 };
 
 test
 
 Employee.prototype.getEmail = function() {
-  return `${ this.email } is ${ this.alec@fakemail.com } `;
+  return `${ this.email } is ${ this.name@fakemail.com } `;
 };
 
 test
